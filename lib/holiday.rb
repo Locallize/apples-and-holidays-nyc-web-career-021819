@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
   cap_holiday = ""
   
   holiday_hash.each do |key, value|
-      cap_key = "#{key.to_s.capitalize!}:"
+      cap_key = "#{key.to_s.capitalize!}: "
 puts "#{cap_key}"
     value.each do |value, holiday|  
 
