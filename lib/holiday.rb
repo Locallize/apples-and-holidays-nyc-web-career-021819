@@ -85,7 +85,7 @@ puts "#{cap_key}"
     value.each do |value, holiday|  
 
     
-    puts " #{value.to_s.split("_").collect{
+    puts "  #{value.to_s.split("_").collect{
       |cap| cap.capitalize!}.join(" ")}: #{holiday.join(" , ")}"
     
    end
